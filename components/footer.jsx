@@ -312,7 +312,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-white">
-          &copy; 2022. Company Name. All rights reserved.
+          &copy; 2022. Company Name. Created By Asir Mahmud.
         </p>
       </div>
     </footer>
