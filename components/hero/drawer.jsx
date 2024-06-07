@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 const btn = ["Our Work", "Services", "About Us", "Contact"];
 export default function Drawer() {
   return (
@@ -22,12 +23,24 @@ export default function Drawer() {
         </div>
         <div className="flex flex-col lg:text-3xl text-2xl gap-4 ">
           {btn.map((i) => (
-            <div
+            <Link
               key={i}
-              className="text-slate-200 hover:bg-white hover:text-black cursor-pointer text-center w-[50%] "
+              href={
+                i === "Services"
+                  ? "/services"
+                  : i === "Contact"
+                  ? "/contactUs"
+                  : "/"
+              }
             >
-              {i}
-            </div>
+              {" "}
+              <div
+                key={i}
+                className="text-slate-200 hover:bg-white hover:text-black cursor-pointer text-center w-[50%] "
+              >
+                {i}
+              </div>
+            </Link>
           ))}
         </div>
       </SheetContent>
