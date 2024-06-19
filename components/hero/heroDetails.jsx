@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeroDetails() {
   return (
-    <>
+    <div className="flex lg:pt-0  lg:flex-row flex-col-reverse items-center justify-between w-full gap-4 bg-black/20 h-full">
       <div className="flex flex-col lg:items-start gap-4 bg-black/20 justify-center  h-full">
         <div className="text-center lg:text-start">
           <h1 className=" lg:text-[90px] lg:leading-[100px]  text-4xl   text-white">
@@ -26,6 +26,15 @@ export default function HeroDetails() {
           </Link>
         </div>
       </div>
-    </>
+      <div>
+        <div className=" lg:h-auto h-[500px] lg:mr-[100px]">
+          <img
+            className="object-contain h-full w-full"
+            src="https://w0.peakpx.com/wallpaper/555/241/HD-wallpaper-astronaut-in-black-amoled-balc-galaxy-space.jpg"
+            alt="Astronaut in space"
+          />
+        </div>
+      </div>
+    </div>
   );
 }

@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col gap-8">
       <Hero></Hero>
       <div className=" justify-center items-center flex-col text-white flex ">
         <ChevronDown className="text-primary w-14 h-14 cursor-pointer  transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg"></ChevronDown>
@@ -23,7 +23,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className=" lg:px-56 md:p-16 p-8">
+      <div className="lg:h-[200vh] lg:px-56 md:p-16 p-8">
         <Gallery></Gallery>
       </div>
       <div className=" lg:pl-56 lg:p-0 md:p-16 p-8 ">

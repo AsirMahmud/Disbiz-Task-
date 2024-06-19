@@ -36,44 +36,26 @@ export default function Services() {
               ))}
             </ul>
           </div>
-          <div className="md:w-[60%] bg-primary flex flex-col gap-4  text-white lg:p-8 p-8 lg:pr-56">
+          <div className="md:w-[60%] bg-primary flex flex-col gap-4  text-white lg:p-8 p-8 lg:pr-96 text-lg lg:text-2xl justify-center">
             <p>
-              Disbiz is your trusted partner in the ever-evolving marketing
-              landscape. Our team of seasoned professionals brings a wealth of
-              experience and a passion for helping businesses flourish. We go
-              beyond cookie-cutter solutions, crafting tailored marketing
-              strategies designed to propel your brand forward. From meticulous
-              audience analysis to captivating content creation, we ensure every
-              touchpoint resonates with your target market. Disbiz doesn't just
-              execute campaigns; we become an extension of your team,
-              collaborating closely to understand your unique goals and
-              challenges.
+              Disbiz is a full-service marketing agency addicted to building
+              powerful brands. We wake up every day (and occasionally in the
+              middle of the night) finding ways to turn potential customers into
+              lifelong advocates for your business.
             </p>
+
             <p>
-              Our comprehensive suite of services encompasses everything you
-              need to succeed in today's dynamic market. We'll elevate your
-              brand awareness through strategic social media management and
-              targeted advertising campaigns. Our skilled content creators craft
-              compelling narratives that engage your audience and drive
-              qualified leads. Disbiz leverages the power of search engine
-              optimization (SEO) to ensure your brand is easily discoverable by
-              potential customers. Through meticulous data analysis, we measure
-              the effectiveness of each initiative, constantly refining your
-              strategy to maximize return on investment (ROI).
+              When we talk about design, we’re talking about more than brand
+              identity and advertising. For us, design is an ethic a commitment
+              to clarity in the strategies we recommend, precision in marketing
+              campaigns we execute, and transparency in the return on
+              investment. Of course we believe in aesthetics, but our work
+              always, always aims to connect people to value.
             </p>
+
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
-              dicta, aspernatur temporibus incidunt animi, id quibusdam nulla,
-              labore qui nam eveniet. Possimus placeat iste incidunt consectetur
-              hic, animi corrupti, adipisci perferendis aut saepe aspernatur et
-              praesentium est ut eligendi. Harum, illo totam! Corporis
-              doloremque quaerat amet. Tempora praesentium quam, quasi ratione
-              nulla eligendi pariatur nobis ipsam voluptatem perspiciatis rem
-              dolores vitae eaque incidunt aut mollitia amet dolorum hic commodi
-              voluptatum quia enim! Voluptate reiciendis minus magnam pariatur
-              fugit ipsum quas! Tempora adipisci a eveniet molestiae rerum iusto
-              ad saepe quam recusandae dignissimos quia accusantium suscipit
-              ipsum, excepturi nulla necessitatibus expedita.
+              Check out our list of services for more details on the skills,
+              tools, and expertise we can offer to your business.
             </p>
 
             <div className="">
