@@ -1,15 +1,15 @@
 import React from "react";
 import { Button } from "../ui/button";
-import Logo from "../logo";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HeroDetails() {
   return (
-    <div className="flex lg:pt-0  lg:flex-row flex-col-reverse items-center justify-between w-full gap-4 bg-black/20 h-full">
-      <div className="flex flex-col lg:items-start gap-4 bg-black/20 justify-center  h-full">
-        <div className="text-center lg:text-start">
-          <h1 className=" lg:text-[90px] lg:leading-[100px]  text-4xl   text-white">
-            Ready to build <br /> a website?{" "}
+    <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full h-screen bg-black lg:mt-[100px] lg:pt-0">
+      <div className="flex flex-col items-center lg:items-start gap-4 justify-center h-full p-8 lg:p-0">
+        <div className="text-center lg:text-left">
+          <h1 className="text-4xl lg:text-[90px] lg:leading-[100px] text-white">
+            Ready to Build <br /> a Website?
           </h1>
         </div>
         <div className="flex gap-4 lg:gap-10 justify-center">
@@ -26,14 +26,14 @@ export default function HeroDetails() {
           </Link>
         </div>
       </div>
-      <div>
-        <div className=" lg:h-auto h-[500px] lg:mr-[100px]">
-          <img
-            className="object-contain h-full w-full"
-            src="https://w0.peakpx.com/wallpaper/555/241/HD-wallpaper-astronaut-in-black-amoled-balc-galaxy-space.jpg"
-            alt="Astronaut in space"
-          />
-        </div>
+      <div className="w-full lg:w-auto overflow-hidden   flex justify-center lg:mr-[100px] lg:mt-0 mt-40">
+        <Image
+          className="object-contain h-full lg:w-auto w-full"
+          src="/hero.jpg"
+          alt="Astronaut in space"
+          width={500}
+          height={500}
+        />
       </div>
     </div>
   );

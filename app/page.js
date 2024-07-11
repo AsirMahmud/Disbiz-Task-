@@ -8,7 +8,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col gap-8">
-      <Hero></Hero>
+      <div>
+        <Hero></Hero>
+      </div>
       <div className=" justify-center items-center flex-col text-white flex ">
         <ChevronDown className="text-primary w-14 h-14 cursor-pointer  transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg"></ChevronDown>
         <div>

@@ -4,17 +4,17 @@ import { Button } from "../ui/button";
 export default function Gallery() {
   const data1 = [
     {
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
+      src: "/Asset 3-100.jpg",
       alt: "",
       className: "w-full h-[40%] object-cover overflow-hidden",
     },
     {
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg",
+      src: "Asset 4-100.jpg",
       alt: "",
       className: "w-full h-[25%] overflow-hidden",
     },
     {
-      src: "https://www.factor.niehs.nih.gov/sites/niehs-factor/files/2019/1/papers/puberty/img859558.jpg",
+      src: "Asset 5-100.jpg",
       alt: "",
       className: "w-full h-[35%] overflow-hidden",
     },
@@ -22,17 +22,17 @@ export default function Gallery() {
 
   const data2 = [
     {
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg",
+      src: "Asset 6-100.jpg",
       alt: "",
       className: "w-full h-[35%] object-cover overflow-hidden",
     },
     {
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg",
+      src: "Asset 7-100.jpg",
       alt: "",
       className: "w-full h-[40%] overflow-hidden",
     },
     {
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg",
+      src: "Asset 8-100.jpg",
       alt: "",
       className: "w-full h-[25%] overflow-hidden",
     },
@@ -67,7 +67,7 @@ export default function Gallery() {
         <div className="w-full lg:h-[30%] mt-4 overflow-hidden">
           <img
             className="w-full h-full object-cover"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
+            src="Asset 9-100.jpg"
           ></img>
         </div>
       </div>
