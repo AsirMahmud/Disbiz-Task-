@@ -4,7 +4,7 @@ import Logo2 from "./logo2";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto flex w-full mt-4 bg-[url('/footer.svg')] lg:justify-center  ">
+    <footer className="mx-auto flex w-full mt-4 bg-[url('/footer.svg')] bg-no-repeat lg:justify-center  ">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="w-full">
           <div className="w-full flex">

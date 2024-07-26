@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function Gallery() {
   const data1 = [
@@ -75,7 +76,10 @@ export default function Gallery() {
       {/* "colo" div spans across two columns */}
 
       <div className="flex justify-center">
-        <Button className="rounded-none">VIEW OTHER WORK</Button>
+        <Link href="/portfolio">
+          {" "}
+          <Button className="rounded-none">VIEW OTHER WORK</Button>
+        </Link>
       </div>
     </div>
   );

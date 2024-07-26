@@ -72,10 +72,6 @@ export default function PortfolioGallery() {
       </div>
 
       {/* "colo" div spans across two columns */}
-
-      <div className="flex justify-center">
-        <Button className="rounded-none">VIEW OTHER WORK</Button>
-      </div>
     </div>
   );
 }
