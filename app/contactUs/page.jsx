@@ -50,7 +50,7 @@ export default function page() {
         </Link>
         <Drawer className="mr-4" />
       </div>
-      <div className="w-full text-white flex flex-col gap-16 p-8 lg:p-16">
+      <div className="w-full  text-white flex flex-col gap-16 p-8 lg:p-16">
         <h1 className="text-4xl lg:text-6xl">Contact Us</h1>
         <div className="flex flex-col-reverse lg:flex-row gap-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-y-16 lg:gap-x-16 lg:w-1/2">
@@ -76,7 +76,7 @@ export default function page() {
               src="/contact.jpg"
               width={400}
               height={400}
-              className="w-full h-auto object-cover"
+              className="w-full -mt-36 h-auto object-cover"
               alt="Contact"
             />
           </div>

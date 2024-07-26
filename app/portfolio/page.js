@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Gallery from "@/components/gallery/gallery";
 import { Star, StarIcon } from "lucide-react";
 import { StarFilledIcon } from "@radix-ui/react-icons";
+import PortfolioGallery from "./components/portfolioGallery";
 const data = [
   {
     name: "John Smith",
@@ -33,7 +34,7 @@ export default function page() {
         <Button className="rounded-none w-full p-4  lg:text-3xl text-xl">
           Some of our work
         </Button>
-        <Gallery></Gallery>
+        <PortfolioGallery></PortfolioGallery>
       </div>
       <div className="w-full flex lg:p-8 p-4 lg:flex-row flex-col bg-gradient-to-r from-primary to-black">
         <h1 className="lg:w-[40%] text-wrap  lg:text-6xl text-2xl text-white">

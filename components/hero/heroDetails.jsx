@@ -3,14 +3,14 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
+import TypedText from "./typedText";
+
 export default function HeroDetails() {
   return (
     <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full h-screen bg-black lg:mt-[100px] lg:pt-0">
       <div className="flex flex-col items-center lg:items-start gap-4 justify-center h-full p-8 lg:p-0">
         <div className="text-center lg:text-left">
-          <h1 className="text-4xl lg:text-[90px] lg:leading-[100px] text-white">
-            Ready to Build <br /> a Website?
-          </h1>
+          <TypedText></TypedText>
         </div>
         <div className="flex gap-4 lg:gap-10 justify-center">
           <Link href="/services">

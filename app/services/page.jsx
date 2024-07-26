@@ -2,6 +2,7 @@ import React from "react";
 import ServiceHero from "./components/serviceHero";
 import { Button } from "@/components/ui/button";
 import { Dot } from "lucide-react";
+import Image from "next/image";
 
 export default function page() {
   const data = [
@@ -19,6 +20,7 @@ export default function page() {
         "    Brand Asset Development",
         "    Brand Packaging + Materials",
       ],
+      images: ["logo1", "logo2", "logo3", "logo4"],
     },
     {
       header: "Web Design & Development",
@@ -34,6 +36,7 @@ export default function page() {
         "    Ongoing Optimization",
         "    Maintenance + Hosting",
       ],
+      images: ["dev1", "dev2", "dev3", "dev4"],
     },
     {
       header: "Marketing & Content",
@@ -48,6 +51,7 @@ export default function page() {
         "    Integrated Campaigns",
         "    Reporting + Optimization",
       ],
+      images: ["m1", "m2", "m3", "m4"],
     },
   ];
   return (
@@ -75,12 +79,32 @@ export default function page() {
             </div>
             <div className="lg:w-[50%] flex  w-full gap-2">
               <div className="w-full flex flex-col gap-8">
-                <div className="lg:w-[200px] rounded xl bg-white h-[200px]"></div>
-                <div className="lg:w-[200px] rounded xl bg-white h-[200px]"></div>
+                <div className="lg:w-[200px] rounded xl border-2 border h-[200px] overflow-hidden">
+                  <img
+                    src={"./" + i.images[0] + ".jpg"}
+                    className="w-full h-full object-cover"
+                  ></img>
+                </div>
+                <div className="lg:w-[200px] rounded xl border-2 border h-[200px] overflow-hidden">
+                  <img
+                    src={"./" + i.images[1] + ".jpg"}
+                    className="w-full h-full object-cover"
+                  ></img>
+                </div>
               </div>
               <div className="w-full flex flex-col lg:-m-10  gap-8">
-                <div className="lg:w-[200px] rounded xl bg-white h-[200px]"></div>
-                <div className="lg:w-[200px] rounded xl bg-white h-[200px]"></div>
+                <div className="lg:w-[200px] rounded xl border-2 border h-[200px] overflow-hidden">
+                  <img
+                    src={"./" + i.images[2] + ".jpg"}
+                    className="w-full h-full object-cover"
+                  ></img>
+                </div>
+                <div className="lg:w-[200px] rounded xl border-2 border h-[200px] overflow-hidden">
+                  <img
+                    src={"./" + i.images[3] + ".jpg"}
+                    className="w-full h-full object-cover"
+                  ></img>
+                </div>
               </div>
             </div>
           </div>

@@ -30,6 +30,8 @@ export default function Drawer() {
                   ? "/services"
                   : i === "Contact"
                   ? "/contactUs"
+                  : i === "Our Work"
+                  ? "/portfolio"
                   : "/"
               }
             >
