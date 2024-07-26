@@ -8,7 +8,7 @@ export default function TypedText() {
       <h1 className="text-4xl lg:text-[90px] lg:leading-[100px] text-white">
         Ready to Build <br />
         <ReactTyped
-          strings={["a Website", "a design"]}
+          strings={["a Website", "a Design"]}
           typeSpeed={200}
           backSpeed={100}
           startDelay={300}
