@@ -15,7 +15,7 @@ export async function POST(req) {
     // Sending the first email
     const { data: data1, error: error1 } = await resend.emails.send({
       from: "info@disbiz.co",
-      to: ["info@disbiz.co", "asirmahmuhddd@gmail.com"],
+      to: ["info@disbiz.co", "disbiz.official@gmail.com"],
       subject: "New Client Alert",
       react: EmailTemplate({
         name,
