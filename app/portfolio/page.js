@@ -36,7 +36,7 @@ export default function page() {
         </Button>
         <PortfolioGallery></PortfolioGallery>
       </div>
-      <div className="w-full flex lg:p-8 p-4 lg:flex-row flex-col bg-gradient-to-r from-primary to-black">
+      {/* <div className="w-full flex lg:p-8 p-4 lg:flex-row flex-col bg-gradient-to-r from-primary to-black">
         <h1 className="lg:w-[40%] text-wrap  lg:text-6xl text-2xl text-white">
           What Our &nbsp; Review Says
         </h1>
@@ -63,7 +63,7 @@ export default function page() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -3,6 +3,7 @@ import ServiceHero from "./components/serviceHero";
 import { Button } from "@/components/ui/button";
 import { Dot } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function page() {
   const data = [
@@ -66,7 +67,7 @@ export default function page() {
             className="flex lg:flex-row flex-col gap-16 lg:gap-32 justify-between"
           >
             <div key={i.header} className="flex lg:w-[50%] flex-col gap-4">
-              <h1 className="text-2xl">{i.header}</h1>
+              <h1 className="text-2xl text-primary">{i.header}</h1>
               <p className="text-lg">{i.details}</p>
               <ul className="flex gap-2 flex-col ">
                 {i.listItems.map((j) => (
@@ -111,9 +112,12 @@ export default function page() {
         ))}
       </div>
       <div className="w-full flex justify-center bg-primary  p-2">
-        <Button className="border border-white rounded-none  hover:animate-out">
-          READY TO LAUNCH? GET IN TOUCH NOW
-        </Button>
+        <Link href="/contactUs">
+          {" "}
+          <Button className="border border-white rounded-none  hover:animate-out">
+            READY TO LAUNCH? GET IN TOUCH NOW
+          </Button>
+        </Link>
       </div>
     </>
   );

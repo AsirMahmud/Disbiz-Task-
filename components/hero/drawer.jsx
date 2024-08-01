@@ -10,7 +10,7 @@ import {
 import { Menu } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
-const btn = ["Our Work", "Services", "About Us", "Contact"];
+const btn = ["Our Work", "Services", "Contact"];
 export default function Drawer() {
   return (
     <Sheet className="">

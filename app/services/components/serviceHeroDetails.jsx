@@ -5,7 +5,9 @@ export default function ServiceHeroDetails() {
   return (
     <div className="flex lg:pt-0  lg:flex-row flex-col-reverse items-center justify-center gap-4 bg-black/20 h-full">
       <div className="text-white p-8 lg:w-[50%] text">
-        <h2 className="mb-4 font-light lg:text-7xl text-4xl">Services</h2>
+        <h2 className="mb-4 font-light lg:text-7xl text-4xl text-primary">
+          Services
+        </h2>
         <p className="text-lg lg:text-2xl mb-4 w-full">
           Every service we offer has one purpose: to turn total strangers into
           loyal customers. As a brand experience agency, we combine smart

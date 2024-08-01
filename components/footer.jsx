@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./logo";
 import Logo2 from "./logo2";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -25,16 +26,16 @@ export default function Footer() {
                     <h1 className="text-lg">GET TO KNOW US</h1>
                     <ul className="flex  flex-col gap-4">
                       <li>
-                        <a href="#our-work">Our Work</a>
+                        <a href="/services">Our Work</a>
                       </li>
                       <li>
-                        <a href="#branding-design">Branding & Design</a>
+                        <Link href="/services">Branding & Design</Link>
                       </li>
                       <li>
-                        <a href="#website-development">Website Development</a>
+                        <Link href="/services">Website Development</Link>
                       </li>
                       <li>
-                        <a href="#packaging-marketing">Packaging & Marketing</a>
+                        <Link href="/services">Packaging & Marketing</Link>
                       </li>
                     </ul>
                   </div>
@@ -42,11 +43,10 @@ export default function Footer() {
                   <div className="flex  flex-col gap-4">
                     <h2 className="text-lg">CONTACT US</h2>
                     <p>
-                      Email:{" "}
-                      <a href="mailto:abcxyz@gmail.com">abcxyz@gmail.com</a>
+                      Email: <a href="mailto:info@disbiz.co">info@disbiz.co</a>
                     </p>
                     <p>
-                      Phone: <a href="tel:+8801759538261">01759538261</a>
+                      Phone: <a href="tel:+8801759538261">+8801518936946</a>
                     </p>
                     <p>Address: Banasree, Dhaka - 1219, Bangladesh</p>
                   </div>
@@ -56,9 +56,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="text-xs text-white">
-          &copy; 2022. Company Name. Created By Asir Mahmud.
-        </p>
+        <p className="text-xs text-white">&copy; 2024 Disbiz</p>
       </div>
     </footer>
   );

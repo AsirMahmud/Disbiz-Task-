@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
         <div className="bg-[#020000] lg:px-8   ">
           {children} <Footer className=""></Footer>
         </div>
+        <Toaster />
       </body>
     </html>
   );

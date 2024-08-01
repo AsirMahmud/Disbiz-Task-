@@ -2,6 +2,7 @@ import { Dot } from "lucide-react";
 import React from "react";
 import { Button } from "../ui/button";
 import Footer from "../footer";
+import Link from "next/link";
 
 export default function Services() {
   const services = [
@@ -29,10 +30,10 @@ export default function Services() {
             </h1>
             <ul className="text-white flex lg:text-2xl flex-col font-bold gap-4">
               {services.map((i) => (
-                <li key={i} className="flex font-bold">
+                <Link href="/services" key={i} className="flex font-bold">
                   <Dot></Dot>
                   {i}
-                </li>
+                </Link>
               ))}
             </ul>
           </div>
@@ -60,9 +61,11 @@ export default function Services() {
 
             <div className="">
               {" "}
-              <Button className="rounded-none mt-8 hover:bg-black/40 bg-black text-primary">
-                View More
-              </Button>
+              <Link href="/services">
+                <Button className="rounded-none mt-8 hover:bg-black/40 bg-black text-primary">
+                  View More
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

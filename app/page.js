@@ -1,3 +1,4 @@
+import { EmailTemplate2 } from "@/components/EmailTemplate2";
 import Footer from "@/components/footer";
 import Gallery from "@/components/gallery/gallery";
 import Hero from "@/components/hero/hero";
